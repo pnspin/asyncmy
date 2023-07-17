@@ -281,7 +281,7 @@ def through(x):
 #     so we shouldn't either
 convert_bit = through
 
-dict encoders = {
+encoders = {
     bool: escape_bool,
     int: escape_int,
     float: escape_float,
